@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Younghwan's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Younghwan Choi"
+name                     : "Younghwan Choi!"
 description              : "An amazing website."
 url                      :  "https://choiyounghwan123.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -118,7 +118,7 @@ author:
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   email            :
-  links:
+    links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
