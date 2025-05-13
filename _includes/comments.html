@@ -1,9 +1,11 @@
 <div class="page__comments" style="margin-top: 2em;">
   {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
   {% case site.comments.provider %}
-    {% when "discourse" %}
+    {% when "utterances" %}
       <h4 class="page__comments-title">{{ comments_label }}</h4>
-      <section id="discourse-comments"></section>
+      <section id="utterances-comments" style="margin-top: 1em;">
+        {% include comments-providers/utterances.html %}
+      </section>
     {% when "disqus" %}
       <h4 class="page__comments-title">{{ comments_label }}</h4>
       <section id="disqus_thread"></section>
@@ -149,11 +151,6 @@
           </div>
           <!-- End new comment form -->
         {% endif %}
-      </section>
-    {% when "utterances" %}
-      <h4 class="page__comments-title">{{ comments_label }}</h4>
-      <section id="utterances-comments" style="margin-top: 1em;">
-        {% include comments-providers/utterances.html %}
       </section>
     {% when "custom" %}
       {% include /comments-providers/custom.html %}
