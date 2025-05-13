@@ -157,3 +157,16 @@
       {% include /comments-providers/custom.html %}
   {% endcase %}
 </div>
+
+{% if page.comments %}
+  <div class="comments">
+    <script src="https://utteranc.es/client.js"
+            repo="choiyounghwan123/comments-repo"
+            issue-term="pathname"
+            label="Comments"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </div>
+{% endif %}
