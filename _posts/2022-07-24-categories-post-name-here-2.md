@@ -17,7 +17,6 @@ toc_sticky: true
 
 date: 2022-07-24
 last_modified_at: 2022-07-24
-comments: true
 ---
 
 ## 🦥 문제 설명
