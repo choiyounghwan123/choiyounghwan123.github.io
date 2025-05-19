@@ -1,11 +1,19 @@
 ---
 title: "[프로그래머스] 미로 탈출"
+excerpt: "BFS를 활용한 미로 탈출 문제 풀이"
+
 categories:
   - Algorithm
 tags:
-  - Programmers
-  - BFS
-  - Python
+  - [프로그래머스, BFS, Python]
+
+permalink: /algorithm/maze-escape/
+
+toc: true
+toc_sticky: true
+
+date: 2025-05-19
+last_modified_at: 2025-05-19
 ---
 
 # 문제 설명
