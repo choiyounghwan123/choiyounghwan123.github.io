@@ -12,8 +12,8 @@ permalink: /algorithm/privacy-collection/
 toc: true
 toc_sticky: true
 
-date: 2024-03-26
-last_modified_at: 2024-03-26
+date: 2025-05-23
+last_modified_at: 2025-05-23
 ---
 
 # 문제 설명
